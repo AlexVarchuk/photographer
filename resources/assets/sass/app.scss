@@ -1,0 +1,259 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+// Bootstrap
+@import "~animate.css/animate.min.css";
+
+
+
+body{
+	background-color: $brand-success
+}
+.body_wrapper{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+.content {
+  flex: 1 0 auto;
+}
+.footer {
+  flex: 0 0 auto;
+}
+.menu_wrapper{
+	width: 100%;
+}
+.navbar{
+	margin: 0;
+}
+.nav_menu{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.navbar-brand{
+    height: initial;
+    text-align: center;
+}
+.menu_subwrapper{
+	width:100%;
+	height:55px;
+	display:flex;
+	flex-direction:row;
+	align-items: center;
+	z-index: 100;
+	/* transition: height 0.3s linear;
+	-webkit-transition: height 0.3s linear;
+    -moz-transition: height 0.3s linear;
+    -o-transition: height 0.3s linear;  */
+    font-weight: bold;
+    border-radius: 0;
+}
+a{
+	color: $text-color;
+}
+a:hover, a:focus {
+    color: $text-color;
+    text-decoration: none;
+}
+.menu_subwrapper.default{
+	height: 55px;
+	/* transition: height 0.3s linear;
+	-webkit-transition: height 0.3s linear;
+    -moz-transition: height 0.3s linear;
+    -o-transition: height 0.3s linear; */
+
+}
+.navbar-default .navbar-nav > .active > a{
+	background-color: transparent;
+}
+.social_wrapper{
+	display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+#facebook:hover svg.facebook_svg{
+	fill:#3b5999;
+}
+#instagram:hover svg.instagram_svg{
+	fill:#e4405f;
+}
+#pinterest:hover svg.pinterest_svg{
+	fill:#bd081c;
+}
+#pixels:hover svg.pixels_svg{
+	fill:#0099e5;
+}
+svg{
+	fill:#777;
+}
+.standart{
+	width: 100%;
+	padding: 0;
+    margin: 0;
+}
+.menu{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+img{
+	width: 100%;
+}
+.ab_center{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.ab_under_center{
+	position: absolute;
+	top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.idea{
+	font-size: 2em;
+    font-style: normal;
+    font-weight: 700;
+    color: white;
+}
+.about{
+	text-align: center;
+}
+.portfolio{
+	text-align: center;
+}
+.projects{
+	text-align: center;
+}
+.copiright{
+	text-align: center;
+	background-color:#777;
+	color:white;
+	padding: 10px 0 10px 0;
+}
+.copiright h5{
+	margin: 0;
+}
+.carousel-control.left{
+	background-image: none;
+}
+.carousel-control.right{
+	background-image: none;
+}
+.glyphicon-chevron-left:before{
+	color:black;
+}
+.glyphicon-chevron-right:before{
+	color:black;
+}
+.title1{
+	display: inline-block;
+    margin: 15px auto 15px;
+    background-color: white;
+    border: 1px solid transparent;
+    font-size: 30px;
+}
+.standart_text{
+	text-align: justify;
+    margin: 10px 100px 20px 100px;
+}
+.standart_text-1{
+	text-align: justify;
+}
+.category_portfolio{
+	margin: 0 0 15px 0;
+	overflow: hidden;
+}
+.category_portfolio a{
+	position: relative;
+    display: inline-block;
+}
+.category_portfolio:hover .category_info{
+	height: 100%;
+}
+.second_row{
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.category_info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 23%;
+    background-color: rgba(119, 119, 119, 0.8);
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+	color: white;
+}
+#footer{
+    border: 1px solid transparent;
+    border-color: #d3e0e9;
+}
+.first_footer{
+	display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 200px;
+}
+.follow{
+	text-align: center;
+}
+.hiddens{
+	opacity:0;
+}
+.visible{
+	opacity:1;
+}
+.contact{
+	text-align: center;
+    margin-top: 55px;
+}
+.form_contact{
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.lf_contact{
+	display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 25%;
+    margin: 1%;
+}
+.rg_contact {
+    width: 25%;
+    margin: 1%;
+}
+.wrapper_input {
+    margin: 5% 0 5% 0;
+}
+.btn_submit{
+	width: 20%;
+    background: none;
+    border: 1px solid #636b6f;
+    padding: 10px 20px 10px 20px;
+    margin: 1%;
+}
+.input_textarea{
+	width: 100%;
+	height: 95%;
+	padding: 10px 20px 10px 20px;
+}
+.input_contact{
+	padding: 10px 20px 10px 20px;
+    margin-bottom: 12px;
+}
