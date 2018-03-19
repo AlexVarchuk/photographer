@@ -13,24 +13,24 @@ $(document).ready(function(){
 
 	}
 
-	$('.about').addClass("hiddens").viewportChecker({
-	classToAdd: 'visible animated zoomIn',
-	offset: 100
-	});
-
-	$('.portfolio').addClass("hiddens").viewportChecker({
-		classToAdd: 'visible animated zoomIn',
-		offset: 100
-		});
-
-
-	$('.projects').addClass("hiddens").viewportChecker({
-	classToAdd: 'visible animated zoomIn',
-	offset: 100
-	});
-	
-	$('.form').addClass("hiddens").viewportChecker({
-	classToAdd: 'visible animated zoomIn',
-	offset: 100
-	});
+	// $('.about').addClass("hiddens").viewportChecker({
+	// classToAdd: 'visible animated zoomIn',
+	// offset: 100
+	// });
+	//
+	// $('.portfolio').addClass("hiddens").viewportChecker({
+	// 	classToAdd: 'visible animated zoomIn',
+	// 	offset: 100
+	// 	});
+	//
+	//
+	// $('.projects').addClass("hiddens").viewportChecker({
+	// classToAdd: 'visible animated zoomIn',
+	// offset: 100
+	// });
+	//
+	// $('.form').addClass("hiddens").viewportChecker({
+	// classToAdd: 'visible animated zoomIn',
+	// offset: 100
+	// });
 })

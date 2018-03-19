@@ -1,10 +1,8 @@
 
-import React, {Component} from 'react';
-import {browserHistory} from 'react-router';
+import React from 'react';
 
-export default class Main_page extends Component {
-    render() {
-        return (
+
+const Main_page = () => (
             <div className="container standart">
                 <div className="row standart">
                     <div className="col-md-12 standart">
@@ -33,7 +31,7 @@ export default class Main_page extends Component {
                                 </div>
                               </div>
 
-                              
+
                               {/*<a className="left carousel-control" href="#myCarousel" data-slide="prev">
                                 <span className="glyphicon glyphicon-chevron-left"></span>
                                 <span className="sr-only">Previous</span>
@@ -41,29 +39,29 @@ export default class Main_page extends Component {
                               <a className="right carousel-control" href="#myCarousel" data-slide="next">
                                 <span className="glyphicon glyphicon-chevron-right"></span>
                                 <span className="sr-only">Next</span>
-                              </a>*/}                                                   
+                              </a>*/}
                         </div>
                         <div className="about">
                             <h1 className="title1">
-                                 Somthink about me 
+                                 Somthink about me
                             </h1>
                             <p className="standart_text">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-                                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
-                                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
-                                culpa qui officia deserunt mollit anim id est laborum 
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                                culpa qui officia deserunt mollit anim id est laborum
                             </p>
                             <p className="standart_text">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-                                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
-                                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
-                                culpa qui officia deserunt mollit anim id est laborum 
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                                culpa qui officia deserunt mollit anim id est laborum
                             </p>
                         </div>
                         <div className="portfolio container">
@@ -80,12 +78,12 @@ export default class Main_page extends Component {
                                                     People
                                                 </h2>
                                                 <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-                                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
-                                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
                                                     culpa qui officia deserunt mollit anim id est laborum
                                                 </p>
                                             </div>
@@ -99,12 +97,12 @@ export default class Main_page extends Component {
                                                     Nature
                                                 </h2>
                                                 <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-                                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
-                                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
                                                     culpa qui officia deserunt mollit anim id est laborum
                                                 </p>
                                             </div>
@@ -118,12 +116,12 @@ export default class Main_page extends Component {
                                                     City & Arhcitecture
                                                 </h2>
                                                 <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-                                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
-                                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
                                                     culpa qui officia deserunt mollit anim id est laborum
                                                 </p>
                                             </div>
@@ -139,12 +137,12 @@ export default class Main_page extends Component {
                                                     Abstract
                                                 </h2>
                                                 <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-                                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
-                                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
                                                     culpa qui officia deserunt mollit anim id est laborum
                                                 </p>
                                             </div>
@@ -158,12 +156,12 @@ export default class Main_page extends Component {
                                                     Subject
                                                 </h2>
                                                 <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-                                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
-                                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
                                                     culpa qui officia deserunt mollit anim id est laborum
                                                 </p>
                                             </div>
@@ -180,21 +178,21 @@ export default class Main_page extends Component {
                                         <div className="project row">
                                             <div className="col-md-5 standart_text-1">
                                                 <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-                                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
-                                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
                                                     culpa qui officia deserunt mollit anim id est laborum
                                                 </p>
                                                 <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-                                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
-                                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
                                                     culpa qui officia deserunt mollit anim id est laborum
                                                 </p>
                                             </div>
@@ -205,21 +203,21 @@ export default class Main_page extends Component {
                                         <div className="project row">
                                             <div className="col-md-5 standart_text-1">
                                                 <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-                                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
-                                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
                                                     culpa qui officia deserunt mollit anim id est laborum
                                                 </p>
                                                 <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-                                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
-                                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
                                                     culpa qui officia deserunt mollit anim id est laborum
                                                 </p>
                                             </div>
@@ -231,21 +229,21 @@ export default class Main_page extends Component {
                                         <div className="project row">
                                             <div className="col-md-5 standart_text-1">
                                                 <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-                                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
-                                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
                                                     culpa qui officia deserunt mollit anim id est laborum
                                                 </p>
                                                 <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-                                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
-                                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
                                                     culpa qui officia deserunt mollit anim id est laborum
                                                 </p>
                                             </div>
@@ -254,7 +252,7 @@ export default class Main_page extends Component {
                                     </div>
                                   </div>
 
-                                  
+
                                   <a className="left carousel-control" href="#projectCarousel" data-slide="prev">
                                     <span className="glyphicon glyphicon-chevron-left"></span>
                                     <span className="sr-only">Previous</span>
@@ -262,14 +260,12 @@ export default class Main_page extends Component {
                                   <a className="right carousel-control" href="#projectCarousel" data-slide="next">
                                     <span className="glyphicon glyphicon-chevron-right"></span>
                                     <span className="sr-only">Next</span>
-                                  </a>                                                 
+                                  </a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         );
-    }
-}
 
-
+export default Main_page;

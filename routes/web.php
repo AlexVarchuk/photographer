@@ -14,3 +14,13 @@
 Route::get('/', function () {
     return view('index');
 });
+Route::get('/home', function () {
+    return view('index');
+});
+Route::get('/portfolio', function () {
+    return view('index');
+});
+Route::get('/contact', function () {
+    return view('index');
+});
+Route::post('/sendMail', 'MailController@sendForm');

@@ -7,27 +7,41 @@
 
 require('./bootstrap');
 require('./function_menu');
-require('../../../node_modules/view-port-checked/jquery.viewportchecker.min');
+//require('../../../node_modules/view-port-checked/jquery.viewportchecker.min');
 
 import React from 'react';
 import { render } from 'react-dom';
-import { Router, Route, browserHistory } from 'react-router';
 
+
+import { BrowserRouter } from 'react-router-dom'
+
+import Menu from './components/Menu';
 import Main from './components/Main';
+import Footer from './components/Footer';
 import Main_Page from './components/Main_Page';
 import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
 
+const App = () => (
+  <div>
+    <Menu />
+    <Main />
+    <Footer />
+  </div>
+)
 
+render((
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>
+), document.getElementById('content'));
 
-render(<Main />, document.getElementById('content'));
-
-render(
-  	<Router history={browserHistory}>
-      <Route path="/" component={Main} >
-        <Route path="/home" component={Main_Page} />
-        <Route path="/contact" component={Contact} />
-        <Route path="/portfolio" component={Portfolio} />
-      </Route>
-    </Router>,
-        document.getElementById('content'));
+// render(
+//   	<Router history={browserHistory}>
+//       <Route path="/" component={Main} >
+//         <Route path="/home" component={Main_Page} />
+//         <Route path="/contact" component={Contact} />
+//         <Route path="/portfolio" component={Portfolio} />
+//       </Route>
+//     </Router>,
+//         document.getElementById('content'));

@@ -14,8 +14,7 @@
         <div id="header"></div>
         <div id="content"></div>
         <div id="footer"></div>
-        
+
         <script src="{{asset('js/app.js')}}" ></script>
     </body>
 </html>
-
